@@ -6,6 +6,16 @@ body {
 background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+
+
+-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
 }
 
 .sidenav {
