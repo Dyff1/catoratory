@@ -3,6 +3,9 @@ body {
     background: radial-gradient(circle at 94.02% 88.03%, #c0bbbb, transparent 100%),radial-gradient(circle at 25.99% 27.79%, #414a4c, transparent 100%),radial-gradient(circle at 50% 50%, #000000, #000000 100%);
     overflow: hidden;
     font-family: 'Butcherman';font-size: 22px; 
+background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .sidenav {
