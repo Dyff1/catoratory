@@ -1,0 +1,10 @@
+body {
+
+    background: url('shark.jpg')no-repeat;
+    height: 100%;
+    width: 100%;
+    resize: both 100%;
+    background-size: 1920px 1080px;
+
+
+}
