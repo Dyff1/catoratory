@@ -18,7 +18,7 @@ background-attachment: fixed;
     -o-background-size: cover; 
     background-size: cover;
     
-    cursor: url("cursor2.png"), auto;
+    cursor: url("cursor3.png"), auto;
 }
 
 .wrapper { 
@@ -157,4 +157,12 @@ to {
     0 0 60px 30px #a50707,  /* inner white */
     0 0 100px 60px rgb(122, 18, 18), /* middle magenta */
     0 0 140px 90px rgb(59, 11, 11); /* outer cyan */
+    z-index: -99;
+
+}
+.twitter-timeline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
