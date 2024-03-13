@@ -188,7 +188,7 @@ iframe {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #000000;
   box-shadow:
   0 0 100px 30px rgb(255, 0, 0); 
