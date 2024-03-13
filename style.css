@@ -123,10 +123,9 @@ to {
   border-radius: 10px;
   background-color: #000000;
   box-shadow:
-    0 0 60px 30px #a50707,  /* inner white */
-    0 0 100px 60px rgb(122, 18, 18), /* middle magenta */
-    0 0 140px 90px rgb(59, 11, 11); /* outer cyan */
-    z-index: -99;
+    0 0 60px 30px #a50707, 
+    0 0 100px 60px rgb(122, 18, 18), 
+    0 0 140px 90px rgb(59, 11, 11); 
 
 }
 .twitter-timeline {
@@ -137,7 +136,7 @@ to {
 }
 .border1 {
   border: 2px solid red;
-  border-radius: 12px;
+  border-radius: 18px;
   padding: 5px;
   height: 98.5%;
 }
@@ -154,6 +153,13 @@ to {
   transform: translate(-50%, -50%);
   animation: glow 2s ease-in-out infinite alternate;
 }
+#button_td
+{
+  position: absolute;
+  top: 93.5%;
+  left: 72%;
+}
+
 iframe {
   position: absolute;
   top: 50%;
@@ -167,4 +173,38 @@ iframe {
   left: 84%;
   transform: translate(-50%, -50%);
   display: none;
+}
+.table1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 920px;
+  width: 900px;
+}
+.twitter-follow-button
+{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background-color: #000000;
+  box-shadow:
+  0 0 100px 30px rgb(255, 0, 0); 
+}
+#tr-twitter
+{
+  position: absolute;
+  left: 91%;
+  top: 92.5%;
+  transform: translate(-50%, -50%);
+}
+.dc
+{
+  position: absolute;
+  top: 91%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  
 }
